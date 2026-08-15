@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'MedFlash',
     short_name: 'MedFlash',
     description: 'Medical flashcards application',
-    start_url: '/',
+    start_url: '/medflash/',
     display: 'standalone',
     background_color: '#ffffff',
     theme_color: '#000000',

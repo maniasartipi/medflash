@@ -23,6 +23,12 @@ export default function Home() {
           </Link>
         ))}
       </div>
+      
+      <footer style={{ marginTop: "32px", textAlign: "center", fontSize: "12px", color: "var(--ink-dim)" }}>
+        <a href="https://pngtree.com/freepng/initials-m-logo-vector--letter-m-logo_5284792.html" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "underline" }}>
+          Icon png image from pngtree.com
+        </a>
+      </footer>
     </div>
   );
 }

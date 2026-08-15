@@ -7,6 +7,15 @@ const vazir = Vazirmatn({ subsets: ["arabic", "latin"] });
 export const metadata: Metadata = {
   title: "MedFlash - Medical Flashcards",
   description: "Spaced repetition flashcards for medical students",
+  applicationName: "MedFlash",
+  appleWebApp: {
+    capable: true,
+    title: "MedFlash",
+    statusBarStyle: "default",
+  },
+  formatDetection: {
+    telephone: false,
+  },
 };
 
 export default function RootLayout({
